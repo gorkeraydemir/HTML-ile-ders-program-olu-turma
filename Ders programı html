@@ -1,181 +1,171 @@
 <!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Ders Programım</title>
-  <style>
-    :root{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
-    body{margin:0;background:#f3f6fb;color:#102a43;display:flex;flex-direction:column;align-items:center;padding:28px}
-    .container{width:100%;max-width:1100px;background:#fff;border-radius:12px;padding:20px;box-shadow:0 6px 20px rgba(16,42,67,0.08)}
-    h1{margin:0 0 14px;font-size:28px;text-align:center}
-    .table-wrap{overflow:auto}
-    table{width:100%;border-collapse:collapse;text-align:center;min-width:880px}
-    thead th{background:#0b74de;color:#fff;padding:10px 8px;position:sticky;top:0}
-    th,td{border:1px solid #d6e3f0;padding:10px 6px;font-size:14px}
-    tbody tr:nth-child(even){background:#fbfdff}
-    .time-col{background:#f0f6fb;font-weight:600;min-width:90px}
-    .course{display:inline-block;padding:6px 8px;border-radius:8px;background:#e9f2ff;border:1px solid #cfe3ff}
-    .empty{color:#9aa9bb}
-    ul{margin-top:18px}
-    @media (max-width:640px){h1{font-size:20px} table{min-width:760px}}
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ders Programım</title>
+  <style>
+    :root{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+    body{margin:0;background:#f3f6fb;color:#102a43;display:flex;flex-direction:column;align-items:center;padding:28px}
+    .container{width:100%;max-width:1100px;background:#fff;border-radius:12px;padding:20px;box-shadow:0 6px 20px rgba(16,42,67,0.08)}
+    h1{margin:0 0 14px;font-size:28px;text-align:center}
+    .table-wrap{overflow:auto}
+    table{width:100%;border-collapse:collapse;text-align:center;min-width:880px}
+    thead th{background:#0b74de;color:#fff;padding:10px 8px;position:sticky;top:0}
+    th,td{border:1px solid #d6e3f0;padding:10px 6px;font-size:14px}
+    tbody tr:nth-child(even){background:#fbfdff}
+    .time-col{background:#f0f6fb;font-weight:600;min-width:90px}
+    .course{display:inline-block;padding:6px 8px;border-radius:8px;background:#e9f2ff;border:1px solid #cfe3ff}
+    .empty{color:#9aa9bb}
+    ul{margin-top:18px}
+    @media (max-width:640px){h1{font-size:20px} table{min-width:760px}}
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Ders Programım</h1>
+  <div class="container">
+    <h1>Ders Programım</h1>
 
-    <div class="table-wrap">
-      <table aria-label="Haftalık Ders Programı">
-        <thead>
-          <tr>
-            <th>Saat</th>
-            <th>Pazartesi</th>
-            <th>Salı</th>
-            <th>Çarşamba</th>
-            <th>Perşembe</th>
-            <th>Cuma</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="time-col">08:40</td>
-            <td><span class="course">Yönetim Bilişim Sistemleri</span></td>
-            <td><span class="course">Matematik I</span></td>
-            <td class="empty">—</td>
-            <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
-            <td><span class="course">Kariyer Planlama</span></td>
-          </tr>
+    <div class="table-wrap">
+      <table aria-label="Haftalık Ders Programı">
+        <thead>
+          <tr>
+            <th>Saat</th>
+            <th>Pazartesi</th>
+            <th>Salı</th>
+            <th>Çarşamba</th>
+            <th>Perşembe</th>
+            <th>Cuma</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="time-col">08:40</td>
+            <td><span class="course">Yönetim Bilişim Sistemleri</span></td>
+            <td><span class="course">Matematik I</span></td>
+            <td class="empty">—</td>
+            <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
+            <td><span class="course">Kariyer Planlama</span></td>
+          </tr>
 
-          <tr>
-            <td class="time-col">09:35</td>
-            <td><span class="course">Yönetim Bilişim Sistemleri</span></td>
-            <td><span class="course">Matematik I</span></td>
-            <td class="empty">—</td>
-            <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
-            <td><span class="course">Ofis Yazılımları</span></td>
-          </tr>
+          <tr>
+            <td class="time-col">09:35</td>
+            <td><span class="course">Yönetim Bilişim Sistemleri</span></td>
+            <td><span class="course">Matematik I</span></td>
+            <td class="empty">—</td>
+            <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
+            <td><span class="course">Ofis Yazılımları</span></td>
+          </tr>
 
-          <tr>
-            <td class="time-col">10:30</td>
-            <td><span class="course">Yönetim Bilişim Sistemleri</span></td>
-            <td><span class="course">Matematik I</span></td>
-            <td class="empty">—</td>
-            <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
-            <td><span class="course">Ofis Yazılımları</span></td>
-          </tr>
+          <tr>
+            <td class="time-col">10:30</td>
+            <td><span class="course">Yönetim Bilişim Sistemleri</span></td>
+            <td><span class="course">Matematik I</span></td>
+            <td class="empty">—</td>
+            <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
+            <td><span class="course">Ofis Yazılımları</span></td>
+          </tr>
 
-          <tr>
-            <td class="time-col">11:25</td>
-            <td><span class="course">Web Tasarımı I</span></td>
-            <td class="empty">—</td>
-      _EOD_
-          <td class="empty">—</td>
-            <td><span class="course">Ofis Yazılımları</span></td>
-            <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
-          </tr>
+          <tr>
+            <td class="time-col">11:25</td>
+            <td><span class="course">Web Tasarımı I</span></td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td><span class="course">Ofis Yazılımları</span></td>
+            <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
+          </tr>
 
-          <tr>
-            <td class="time-col">12:20</td>
-            <td><span class="course">Web Tasarımı I</span></td>
-            <td class="empty">—</td>
-            <td class="empty">—</td>
-            <td><span class="course">Ofis Yazılımları</span></td>
-      _EOD_
-          <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
-          </tr>
+          <tr>
+            <td class="time-col">12:20</td>
+            <td><span class="course">Web Tasarımı I</span></td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td><span class="course">Ofis Yazılımları</span></td>
+            <td><span class="course">Algoritma ve Programlamaya Giriş</span></td>
+          </tr>
 
-          <tr>
-            <td class="time-col">13:15</td>
-            <td><span class="course">Web Tasarımı I</span></td>
-            <td><span class="course">İngilizce I</span></td>
-            <td class="empty">—</td>
-            <td><span class="course">Ofis Yazılımları</span></td>
-            <td class="empty">—</td>
-          </tr>
+          <tr>
+            <td class="time-col">13:15</td>
+            <td><span class="course">Web Tasarımı I</span></td>
+            <td><span class="course">İngilizce I</span></td>
+            <td class="empty">—</td>
+            <td><span class="course">Ofis Yazılımları</span></td>
+            <td class="empty">—</td>
+          </tr>
 
-          <tr>
-            <td class="time-col">14:10</td>
-            <td class="empty">—</td>
-            <td><span class="course">İngilizce I</span></td>
-            <td><span class="course">Temel Fotoğrafçılık</span></td>
-            <td class="empty">—</td>
-            <td class="empty">—</td>
-          </tr>
+          <tr>
+            <td class="time-col">14:10</td>
+            <td class="empty">—</td>
+            <td><span class="course">İngilizce I</span></td>
+            <td><span class="course">Temel Fotoğrafçılık</span></td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+          </tr>
 
-          <tr>
-            <td class="time-col">15:05</td>
-            <td><span class="course">Matematik I</span></td>
-            <td><span class="course">Atatürk İlkeleri ve İnkılap Tarihi I</span></td>
-            <td><span class="course">Temel Fotoğrafçılık</span></td>
-            <td><span class="course">Bilgisayar Donanımı</span></td>
-            <td class="empty">—</td>
-          </tr>
+          <tr>
+            <td class="time-col">15:05</td>
+            <td><span class="course">Matematik I</span></td>
+            <td><span class="course">Atatürk İlkeleri ve İnkılap Tarihi I</span></td>
+            <td><span class="course">Temel Fotoğrafçılık</span></td>
+            <td><span class="course">Bilgisayar Donanımı</span></td>
+            <td class="empty">—</td>
+          </tr>
 
-          <tr>
-            <td class="time-col">16:00</td>
-    _EOD_
-          <td><span class="course">Matematik I</span></td>
-            <td><span class="course">Atatürk İlkeleri ve İnkılap Tarihi I</span></td>
-            <td><span class="course">Temel Fotoğrafçılık</span></td>
-            <td><span class="course">Bilgisayar Donanımı</span></td>
-s
-            <td class="empty">—</td>
-          </tr>
+          <tr>
+            <td class="time-col">16:00</td>
+            <td><span class="course">Matematik I</span></td>
+            <td><span class="course">Atatürk İlkeleri ve İnkılap Tarihi I</span></td>
+            <td><span class="course">Temel Fotoğrafçılık</span></td>
+            <td><span class="course">Bilgisayar Donanımı</span></td>
+            <td class="empty">—</td>
+          </tr>
 
-          <tr>
-            <td class="time-col">17:45</td>
-            <td><span class="course">Web Tasarımı I</span></td>
-            <td class="empty">—</td>
-            <td class="empty">—</td>
-            <td><span class="course">Bilgisayar Donanımı</span></td>
-s
-            <td><span class="course">Türk Dili I</span></td>
-          </tr>
+          <tr>
+            <td class="time-col">17:45</td>
+            <td><span class="course">Web Tasarımı I</span></td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td><span class="course">Bilgisayar Donanımı</span></td>
+            <td><span class="course">Türk Dili I</span></td>
+          </tr>
 
-          <tr>
-            <td class="time-col">18:40</td>
-            <td><span class="course">Web Tasarımı I</span></td>
-            <td class="empty">—</td>
-            <td class="empty">—</td>
-            <td><span class="course">Bilgisayar Donanımı</span></td>
-s
-            <td><span class="course">Türk Dili I</span></td>
-          </tr>
+          <tr>
+            <td class="time-col">18:40</td>
+            <td><span class="course">Web Tasarımı I</span></td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td><span class="course">Bilgisayar Donanımı</span></td>
+            <td><span class="course">Türk Dili I</span></td>
+          </tr>
 
-          <tr>
-            <td class="time-col">19:45</td>
-            <td><span class="course">Web Tasarımı I</span></td>
-            <td class="empty">—</td>
-            <td class="empty">—</td>
-            <td class="empty">—</td>
-s
-            <td class="empty">—</td>
-          </tr>
+          <tr>
+            <td class="time-col">19:45</td>
+            <td><span class="course">Web Tasarımı I</span></td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+            <td class="empty">—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-        </tbody>
-      </table>
-    </div>
+    <section>
+      <h2 style="font-size:16px;margin-top:18px;margin-bottom:8px">Dersler ve Hocalar</h2>
+      <ul>
+        <li>Yönetim Bilişim Sistemleri — Dr. Öğr. Üyesi Ahmet Yılmaz</li>
+        <li>Matematik I — Öğr. Gör. Ayşe Demir</li>
+        <li>Web Tasarımı I — Öğr. Gör. Caner Karaca</li>
+        <li>Algoritma ve Programlamaya Giriş — Öğr. Gör. Ece Arslan</li>
+        <li>Ofis Yazılımları — Öğr. Gör. Fatma Koç</li>
+        <li>İngilizce I — Öğr. Gör. John Smith</li>
+        <li>Temel Fotoğrafçılık — Öğr. Gör. Zeynep Şahin</li>
+        <li>Bilgisayar Donanımı — Öğr. Gör. Emre Kaya</li>
+        <li>Türk Dili I — Öğr. Gör. Mehmet Kurt</li>
+        <li>Atatürk İlkeleri ve İnkılap Tarihi I — Öğr. Gör. Elif Aydın</li>
+        <li>Kariyer Planlama — Öğr. Gör. Hakan Yalçın</li>
+      </ul>
+    </section>
 
-    <section>
-      <h2 style="font-size:16px;margin-top:18px;margin-bottom:8px">Dersler ve Hocalar</h2>
-      <ul>
-        <li>Yönetim Bilişim Sistemleri — Dr. Öğr. Üyesi Ahmet Yılmaz</li>
-        <li>Matematik I — Öğr. Gör. Ayşe Demir</li>
-        <li>Web Tasarımı I — Öğr. Gör. Caner Karaca</li>
-        <li>Algoritma ve Programlamaya Giriş — Öğr. Gör. Ece Arslan</li>
-        <li>Ofis Yazılımları — Öğr. Gör. Fatma Koç</li>
-        <li>İngilizce I — Öğr. Gör. John Smith</li>
-        <li>Temel Fotoğrafçılık — Öğr. Gör. Zeynep Şahin</li>
-s
-        <li>Bilgisayar Donanımı — Öğr. Gör. Emre Kaya</li>
-        <li>Türk Dili I — Öğr. Gör. Mehmet Kurt</li>
-        <li>Atatürk İlkeleri ve İnkılap Tarihi I — Öğr. Gör. Elif Aydın</li>
-s
-        <li>Kariyer Planlama — Öğr. Gör. Hakan Yalçın</li>
-      </ul>
-    </section>
-
-  </div>
+  </div>
 </body>
 </html>
